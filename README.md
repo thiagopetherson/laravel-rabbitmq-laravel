@@ -16,7 +16,7 @@ Testando a comunicação através de mensageria entre duas aplicações (servço
 - Ir na interface do RabbitMQ e fazer o bind entre a exchange "product_events" e as filas "product_create_queue" e "product_create_response_queue".
 - Entrar no container do container da aplicação Laravel 1 e rodar o comando "php artisan app:save-products" para deixar o command executando.
 
-- OBS: Teremos dois containers de MySQL rodando. Então atentar-se nessas tabelas na hora de acessar o endpoint. 
+- OBS: Teremos dois containers de MySQL rodando (Um para cada aplicação Laravel). Então atentar-se nessas tabelas na hora de acessar o endpoint. 
 - OBS: O endpoint foi criado no arquivo de rotas de api.
 
 - Pronto, só testar o endpoint !!!
@@ -27,3 +27,4 @@ Testando a comunicação através de mensageria entre duas aplicações (servço
 - Laravel
 - RabbitMQ
 - Docker
+- MySQL
