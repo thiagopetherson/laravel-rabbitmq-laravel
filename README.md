@@ -26,3 +26,4 @@ Testando a comunicação através de mensageria entre duas aplicações (servço
 - PHP
 - Laravel
 - RabbitMQ
+- Docker
