@@ -2,7 +2,7 @@
 
 Testando a comunicação através de mensageria entre duas aplicações (servços) Laravel e um serviço do RabbitMQ.
 
-![image](https://github.com/thiagopetherson/laravel-rabbitmq-microservices/assets/44420212/9388d3f6-838b-444a-90af-6ff378cfd9e5)
+![image](https://github.com/thiagopetherson/laravel-rabbitmq-laravel/assets/44420212/2d495e72-4ec1-4740-ac47-0d638802ae95)
 
 ## Seguir os seguinte passos
 
