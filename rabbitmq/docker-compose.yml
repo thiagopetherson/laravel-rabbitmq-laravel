@@ -1,0 +1,17 @@
+services:
+    rabbitmq:
+        image: rabbitmq:3-management
+        container_name: 'rabbitmq'
+        ports:
+            - 5672:5672
+            - 15672:15672
+        volumes:
+            - ~/.docker/rabbitmq/data/:/var/lib/rabbitmq/
+            - ~/.docker/rabbitmq/log/:/var/log/rabbitmq
+        networks:
+            - laravel-rabbitmq-laravel-network
+networks:
+    laravel-rabbitmq-laravel-network:
+        external: true
+
+# Não esquecer de antes rodar o comando 'docker network create laravel-rabbitmq-laravel-network'
